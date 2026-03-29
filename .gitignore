@@ -1,0 +1,30 @@
+# --- C# and .NET related ---
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.sln.docstates
+
+# --- Secrets and Config ---
+# Ignore the actual settings containing API keys
+appsettings.json
+appsettings.*.json
+# Allow an example template to be committed
+!appsettings.Example.json
+
+# Other potential secret files
+.env
+secrets.json
+
+# --- VS / Code specific ---
+.vs/
+.vscode/
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Log files ---
+*.log
